@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44D290D2C1741E00015B07C /* YourMoveiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D290C2C1741E00015B07C /* YourMoveiApp.swift */; };
+		F44D290F2C1741E00015B07C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D290E2C1741E00015B07C /* ContentView.swift */; };
+		F44D29112C1741E20015B07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44D29102C1741E20015B07C /* Assets.xcassets */; };
+		F44D29152C1741E20015B07C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44D29142C1741E20015B07C /* Preview Assets.xcassets */; };
+		F44D291F2C1741E30015B07C /* YourMoveiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D291E2C1741E30015B07C /* YourMoveiTests.swift */; };
+		F44D29292C1741E30015B07C /* YourMoveiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D29282C1741E30015B07C /* YourMoveiUITests.swift */; };
+		F44D292B2C1741E30015B07C /* YourMoveiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D292A2C1741E30015B07C /* YourMoveiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44D291B2C1741E30015B07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44D29012C1741E00015B07C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44D29082C1741E00015B07C;
+			remoteInfo = YourMovei;
+		};
+		F44D29252C1741E30015B07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44D29012C1741E00015B07C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44D29082C1741E00015B07C;
+			remoteInfo = YourMovei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44D29092C1741E00015B07C /* YourMovei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourMovei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44D290C2C1741E00015B07C /* YourMoveiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMoveiApp.swift; sourceTree = "<group>"; };
+		F44D290E2C1741E00015B07C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F44D29102C1741E20015B07C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44D29122C1741E20015B07C /* YourMovei.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YourMovei.entitlements; sourceTree = "<group>"; };
+		F44D29142C1741E20015B07C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F44D291A2C1741E30015B07C /* YourMoveiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourMoveiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44D291E2C1741E30015B07C /* YourMoveiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMoveiTests.swift; sourceTree = "<group>"; };
+		F44D29242C1741E30015B07C /* YourMoveiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourMoveiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44D29282C1741E30015B07C /* YourMoveiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMoveiUITests.swift; sourceTree = "<group>"; };
+		F44D292A2C1741E30015B07C /* YourMoveiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMoveiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44D29062C1741E00015B07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29172C1741E30015B07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29212C1741E30015B07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44D29002C1741E00015B07C = {
+			isa = PBXGroup;
+			children = (
+				F44D290B2C1741E00015B07C /* YourMovei */,
+				F44D291D2C1741E30015B07C /* YourMoveiTests */,
+				F44D29272C1741E30015B07C /* YourMoveiUITests */,
+				F44D290A2C1741E00015B07C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44D290A2C1741E00015B07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44D29092C1741E00015B07C /* YourMovei.app */,
+				F44D291A2C1741E30015B07C /* YourMoveiTests.xctest */,
+				F44D29242C1741E30015B07C /* YourMoveiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44D290B2C1741E00015B07C /* YourMovei */ = {
+			isa = PBXGroup;
+			children = (
+				F44D290C2C1741E00015B07C /* YourMoveiApp.swift */,
+				F44D290E2C1741E00015B07C /* ContentView.swift */,
+				F44D29102C1741E20015B07C /* Assets.xcassets */,
+				F44D29122C1741E20015B07C /* YourMovei.entitlements */,
+				F44D29132C1741E20015B07C /* Preview Content */,
+			);
+			path = YourMovei;
+			sourceTree = "<group>";
+		};
+		F44D29132C1741E20015B07C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F44D29142C1741E20015B07C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F44D291D2C1741E30015B07C /* YourMoveiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44D291E2C1741E30015B07C /* YourMoveiTests.swift */,
+			);
+			path = YourMoveiTests;
+			sourceTree = "<group>";
+		};
+		F44D29272C1741E30015B07C /* YourMoveiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44D29282C1741E30015B07C /* YourMoveiUITests.swift */,
+				F44D292A2C1741E30015B07C /* YourMoveiUITestsLaunchTests.swift */,
+			);
+			path = YourMoveiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44D29082C1741E00015B07C /* YourMovei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44D292E2C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMovei" */;
+			buildPhases = (
+				F44D29052C1741E00015B07C /* Sources */,
+				F44D29062C1741E00015B07C /* Frameworks */,
+				F44D29072C1741E00015B07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YourMovei;
+			productName = YourMovei;
+			productReference = F44D29092C1741E00015B07C /* YourMovei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44D29192C1741E30015B07C /* YourMoveiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44D29312C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMoveiTests" */;
+			buildPhases = (
+				F44D29162C1741E30015B07C /* Sources */,
+				F44D29172C1741E30015B07C /* Frameworks */,
+				F44D29182C1741E30015B07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44D291C2C1741E30015B07C /* PBXTargetDependency */,
+			);
+			name = YourMoveiTests;
+			productName = YourMoveiTests;
+			productReference = F44D291A2C1741E30015B07C /* YourMoveiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44D29232C1741E30015B07C /* YourMoveiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44D29342C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMoveiUITests" */;
+			buildPhases = (
+				F44D29202C1741E30015B07C /* Sources */,
+				F44D29212C1741E30015B07C /* Frameworks */,
+				F44D29222C1741E30015B07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44D29262C1741E30015B07C /* PBXTargetDependency */,
+			);
+			name = YourMoveiUITests;
+			productName = YourMoveiUITests;
+			productReference = F44D29242C1741E30015B07C /* YourMoveiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44D29012C1741E00015B07C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F44D29082C1741E00015B07C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F44D29192C1741E30015B07C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F44D29082C1741E00015B07C;
+					};
+					F44D29232C1741E30015B07C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F44D29082C1741E00015B07C;
+					};
+				};
+			};
+			buildConfigurationList = F44D29042C1741E00015B07C /* Build configuration list for PBXProject "YourMovei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44D29002C1741E00015B07C;
+			productRefGroup = F44D290A2C1741E00015B07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44D29082C1741E00015B07C /* YourMovei */,
+				F44D29192C1741E30015B07C /* YourMoveiTests */,
+				F44D29232C1741E30015B07C /* YourMoveiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44D29072C1741E00015B07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D29152C1741E20015B07C /* Preview Assets.xcassets in Resources */,
+				F44D29112C1741E20015B07C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29182C1741E30015B07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29222C1741E30015B07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44D29052C1741E00015B07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D290F2C1741E00015B07C /* ContentView.swift in Sources */,
+				F44D290D2C1741E00015B07C /* YourMoveiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29162C1741E30015B07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D291F2C1741E30015B07C /* YourMoveiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44D29202C1741E30015B07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D292B2C1741E30015B07C /* YourMoveiUITestsLaunchTests.swift in Sources */,
+				F44D29292C1741E30015B07C /* YourMoveiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44D291C2C1741E30015B07C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44D29082C1741E00015B07C /* YourMovei */;
+			targetProxy = F44D291B2C1741E30015B07C /* PBXContainerItemProxy */;
+		};
+		F44D29262C1741E30015B07C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44D29082C1741E00015B07C /* YourMovei */;
+			targetProxy = F44D29252C1741E30015B07C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F44D292C2C1741E30015B07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44D292D2C1741E30015B07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F44D292F2C1741E30015B07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YourMovei/YourMovei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YourMovei/Preview Content\"";
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMovei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44D29302C1741E30015B07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YourMovei/YourMovei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YourMovei/Preview Content\"";
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMovei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F44D29322C1741E30015B07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMoveiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YourMovei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YourMovei";
+			};
+			name = Debug;
+		};
+		F44D29332C1741E30015B07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMoveiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YourMovei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YourMovei";
+			};
+			name = Release;
+		};
+		F44D29352C1741E30015B07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMoveiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YourMovei;
+			};
+			name = Debug;
+		};
+		F44D29362C1741E30015B07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y88M7L6GPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StenioLima.YourMoveiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YourMovei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44D29042C1741E00015B07C /* Build configuration list for PBXProject "YourMovei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44D292C2C1741E30015B07C /* Debug */,
+				F44D292D2C1741E30015B07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44D292E2C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMovei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44D292F2C1741E30015B07C /* Debug */,
+				F44D29302C1741E30015B07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44D29312C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMoveiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44D29322C1741E30015B07C /* Debug */,
+				F44D29332C1741E30015B07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44D29342C1741E30015B07C /* Build configuration list for PBXNativeTarget "YourMoveiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44D29352C1741E30015B07C /* Debug */,
+				F44D29362C1741E30015B07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44D29012C1741E00015B07C /* Project object */;
+}
